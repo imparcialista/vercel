@@ -13,6 +13,9 @@
 
     --cor-links: #69BBE0;
 
+    --botao-azul: #167BF7;
+    --botao-azul-25ma: #0761d0;
+
     --fonte-primaria: 'Inter', sans-serif;
     --fonte-secundaria: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -135,14 +138,6 @@ a {
 }
 
 
-.rodape {
-    padding: 10px;
-    color: var(--cor-primaria);
-    background-color: var(--cor-secundaria);
-    text-align: center;
-    
-}
-
 @media (max-width: 1200px) {
     .cabecalho {
         padding: 10%;
@@ -163,3 +158,37 @@ a {
 
 }
 
+.lista__link li{
+    margin-bottom: 1rem;
+
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--cor-destaque);
+
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
+
+}
+
+.lista__link a:active{
+    color: var(--botao-azul-25ma)
+
+}
+
+
+
+.rodape {
+    padding: 1rem;
+    color: #0a0a0a;
+    background-color: #f5f5f5;
+    text-align: center;
+    
+    
+}
